@@ -8,10 +8,7 @@ Created on Wed May 31 21:01:30 2017
 
 def loadWords():
     """
-    Returns a list of valid words. Words are strings of lowercase letters.
-    
-    Depending on the size of the word list, this function may
-    take a while to finish.
+    csv file is loaded into a list
     """
     print("Loading csv file...")
     inFile = open('data.csv', 'r')
